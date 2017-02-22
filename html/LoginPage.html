@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>登录 Mirror</title>
+
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="../css/master.css">
+</head>
+<body>
+	<div class="bs-example bs-example-tabs center_layout" data-example-id="togglable-tabs">
+		<img src="../img/rose.png" alt="logo" class="center_rose">
+		<ul id="myTabs" class="nav nav-tabs" role="tablist">
+			<li role="presentation" class="active"><a href="#log_in" id="login-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">注册</a></li>
+			<li role="presentation"><a href="#sign_up" role="tab" id="signup-tab" data-toggle="tab" aria-controls="profile">登录</a></li>
+		</ul>
+		<div id="myTabContent" class="tab-content">
+			<div role="tabpanel" class="tab-pane fade in active" id="log_in" aria-labelledby="login-tab">
+				<form>
+					<div class="form-group">
+						<input type="text" class="form-control" id="inputNickname" placeholder="昵称">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" id="inputEmail" placeholder="邮箱">
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="密码">
+					</div>
+					<div>
+						<label class="white_font">点击注册按钮即代表您已阅读并同意</label><a href="AgreementPage.html" target="_blank">《Mirror协议》</a>
+					</div>
+					<button type="submit" class="btn btn-default">注册</button>
+				</form>
+			</div>
+			<div role="tabpanel" class="tab-pane fade" id="sign_up" aria-labelledby="signup-tab">
+				<form>
+					<div class="form-group">
+						<input type="email" class="form-control" id="inputEmail" placeholder="邮箱">
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="密码">
+					</div>
+					<button type="submit" class="btn btn-default">登录</button>
+				</form>
+
+			</div>
+		</div>
+	</div><!-- /example -->
+
+	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="../Mirror/js/master.js"></script>
+</body>
+
+</html>

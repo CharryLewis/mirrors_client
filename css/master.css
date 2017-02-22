@@ -1,0 +1,20 @@
+body {
+	/*background-color: #BC8F8F;*/
+	background-color: #000080;
+}
+
+.center_layout {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 25%;
+}
+
+.white_font {
+	color: #000000;
+}
+
+.center_rose{
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: -30%;
+}
